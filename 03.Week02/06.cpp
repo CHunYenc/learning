@@ -18,7 +18,7 @@
 #include <stdlib.h>
 int main()
 {
-	int a, b, c, d, e;
+	int a = 0;
 	printf("請輸入想要兌換的金額: ");
 	scanf("%d", &a);
 	fflush(stdin);
