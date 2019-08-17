@@ -26,7 +26,8 @@
 ## Use
 下載後此專案後直接使用 Netbeans 開啟資料夾 LoginJFrame，直接點選上方的綠色開始箭頭(F6)即可
 
-    設定 Localhost MySQL 
+    1.安裝 JDBC 。若下載專案的話有附上壓縮檔及已經解壓縮的
+    2.設定 Localhost MySQL 
     
     CREATE table tuser(
     id int not null auto_increment primary key,
@@ -36,5 +37,12 @@
     );
     
     再前往 DBConnection 文件進行設定。
-    
-# 結束    
+## 程式畫面
+![alt 文字](https://i.imgur.com/RBs8c9g.png "介面-1")
+![alt 文字](https://i.imgur.com/STwsSad.png "介面-2")
+![alt 文字](https://i.imgur.com/jQ18rZN.png "介面-3")
+## 結束    
+    第一次打 Readme 感覺蠻好玩的！
+    這個程式其實早就要上傳了，可是一直沒時間處理(誤)
+    明明就一個資料庫要改成 Local 哈
+# 謝謝你的收看
