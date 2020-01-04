@@ -8,5 +8,5 @@
 
 ## 說明
 
-[1. CH4_HW06.R](CH4/CH4_HW06_README.md)
+[1. CH4_HW06.R](https://github.com/CHunYenc/108_1_R/blob/master/CH4/CH4_HW06_01_README.md)
 ```一個精簡爬蟲 + 資料處理 + 簡易線性回歸的過程說明。```
