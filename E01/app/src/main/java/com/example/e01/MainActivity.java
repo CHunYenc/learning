@@ -18,40 +18,46 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void ChangeSize(int textSize)
-    {
+    public void ChangeSize(int textSize) {
         TextView textMsg;
         textMsg = findViewById(R.id.text_msg);
         textMsg.setTextSize(textSize);
 
         TextView textNum;
         textNum = (TextView) findViewById(R.id.text_num);
-        textNum.setText(""+textSize);
+        textNum.setText("" + textSize);
     }
 
-    public void reSize(View v)
-    {
+    public void reSize(View v) {
         ChangeSize(20);
     }
 
-    public void addOne(View v)
-    {
+    public void addOne(View v) {
         TextView textnum;
         textnum = findViewById(R.id.text_num);
         String TS = textnum.getText().toString();
 
-        int its = Integer.parseInt(TS) +1;
+        int its = Integer.parseInt(TS) + 1;
         ChangeSize(its);
     }
 
-    public void LessOne(View v)
-    {
+    public void LessOne(View v) {
         TextView textnum;
         textnum = findViewById(R.id.text_num);
         String TS = textnum.getText().toString();
 
-        int its = Integer.parseInt(TS) -1;
+        int its = Integer.parseInt(TS) - 1;
         ChangeSize(its);
     }
 
+
+    public void ChangeTextColorBlue(View v) {
+        TextView textColor = (TextView) findViewById(R.id.text_msg);
+        textColor.setTextColor(Color.BLUE);
+    }
+
+    public void ChangeTextColorRED(View v) {
+        TextView textColor = (TextView) findViewById(R.id.text_msg);
+        textColor.setTextColor(Color.RED);
+    }
 }

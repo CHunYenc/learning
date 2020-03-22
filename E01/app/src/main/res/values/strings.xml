@@ -7,4 +7,6 @@
     <string name="bt_num">20</string>
     <string name="bt_bluetext">BLUE</string>
     <string name="bt_redtext">RED</string>
+    <string name="btBlue">Blue</string>
+    <string name="btRed">RED</string>
 </resources>
