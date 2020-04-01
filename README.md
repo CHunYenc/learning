@@ -9,6 +9,7 @@
       - [第二週 ```E01``` 更改字體大小 ```branch 0.4```](#%e7%ac%ac%e4%ba%8c%e9%80%b1-e01-%e6%9b%b4%e6%94%b9%e5%ad%97%e9%ab%94%e5%a4%a7%e5%b0%8f-branch-04)
       - [第三週 ```E01``` 更改字體顏色 ```branch 0.5```](#%e7%ac%ac%e4%b8%89%e9%80%b1-e01-%e6%9b%b4%e6%94%b9%e5%ad%97%e9%ab%94%e9%a1%8f%e8%89%b2-branch-05)
       - [第四週 ```E02``` 將文字顏色使用RGB來顯示 ```branch 0.8```](#%e7%ac%ac%e5%9b%9b%e9%80%b1-e02-%e5%b0%87%e6%96%87%e5%ad%97%e9%a1%8f%e8%89%b2%e4%bd%bf%e7%94%a8rgb%e4%be%86%e9%a1%af%e7%a4%ba-branch-08)
+      - [第五週 ```E04``` 使用 ``` Listener ``` 監聽器 ```branch 0.9```](#%e7%ac%ac%e4%ba%94%e9%80%b1-e04-%e4%bd%bf%e7%94%a8-listener-%e7%9b%a3%e8%81%bd%e5%99%a8-branch-09)
   - [回家專案](#%e5%9b%9e%e5%ae%b6%e5%b0%88%e6%a1%88)
       - [第三週 ```W01```  按鈕更改成學號 ```branch 0.7```](#%e7%ac%ac%e4%b8%89%e9%80%b1-w01-%e6%8c%89%e9%88%95%e6%9b%b4%e6%94%b9%e6%88%90%e5%ad%b8%e8%99%9f-branch-07)
 
@@ -35,6 +36,17 @@
 - 新創專案 內有 ```三個輸入框(Number)```、```六個調整輸入框的值```、```一個 RadomRGB Button```、```跟一個指定輸入的RGB Button```
 - 主要是 ```RGB 輸入```、```亂數(Random)```、使用 ```+5``` or ```-5``` 可以去變更文字顏色。
 
+#### 第五週 ```E04``` 使用 ``` Listener ``` 監聽器 ```branch 0.9```
+- 上課時發現老師跳過 ```E03``` 直接從 ```E04``` 開始！ 
+- 上課時新增 ```Button*3``` or ```TextView*1```，使用 Button 去 +=1 TextView 上的字
+- 不使用介面上的 onClick 僅使用 Listener
+- 本週學習到的監聽器
+  - ```OnClickListener``` : ```點擊監聽``` 
+  - ```LongOnClickListener``` : ```長按監聽```
+  - ```OntouchListener``` : ``` 觸碰監聽 ```   
+- 最後下課前使用 ```點擊監聽``` 與 ```長按監聽``` 更改 ```TextView```  
+  - 點擊更改 ```Red``` 
+  - 長按更改 ```黑色```
 
 ## 回家專案
 
