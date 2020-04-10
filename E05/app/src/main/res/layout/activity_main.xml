@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RadioGroup
+        android:id="@+id/ClassMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="204dp"
+        android:checkedButton="@id/rb_coffee"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toStartOf="@+id/SugarMenu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2">
+
+        <RadioButton
+            android:id="@+id/rb_coffee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/C1_Coffee" />
+
+        <RadioButton
+            android:id="@+id/rb_redtea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/C2_RedTea" />
+
+        <RadioButton
+            android:id="@+id/rb_milktea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/C3_Milktea" />
+
+        <RadioButton
+            android:id="@+id/rb_greentea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/C4_Greentea" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/SugarMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="204dp"
+        android:checkedButton="@id/rb_normal"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2">
+
+        <RadioButton
+            android:id="@+id/rb_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/f1_Normal" />
+
+        <RadioButton
+            android:id="@+id/rb_half"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/f2_Half" />
+
+        <RadioButton
+            android:id="@+id/rb_less"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/f3_Less" />
+
+        <RadioButton
+            android:id="@+id/rb_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/f4_No" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/IceMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="204dp"
+        android:checkedButton="@id/rb_ice1"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/SugarMenu"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RadioButton
+            android:id="@+id/rb_ice1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/i1_Normal" />
+
+        <RadioButton
+            android:id="@+id/rb_ice2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/i2_Half" />
+
+        <RadioButton
+            android:id="@+id/rb_ice3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/i3_Less" />
+
+        <RadioButton
+            android:id="@+id/rb_ice4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/i4_Hot" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/takebag"
+        android:layout_width="129dp"
+        android:layout_height="34dp"
+        android:text="@string/ck_pgtext"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+    <CheckBox
+        android:id="@+id/takepm"
+        android:layout_width="129dp"
+        android:layout_height="34dp"
+        android:text="@string/ck_pmtext"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.389"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <TextView
+        android:id="@+id/tv_sugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_SugarMenu"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_ice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_iceMenu"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_sugar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="260dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="53dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="311dp" />
+
+    <Button
+        android:id="@+id/bt_sent"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:onClick="Calculate"
+        android:text="@string/bt_text"
+        app:layout_constraintBottom_toTopOf="@+id/tv_total"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+        app:layout_constraintVertical_bias="0.52" />
+
+    <TextView
+        android:id="@+id/tv_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:text="@string/tv_total"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_Class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_ClassMenu"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/tv_sugar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="160dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

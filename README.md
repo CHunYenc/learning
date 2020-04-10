@@ -10,6 +10,7 @@
       - [第三週 ```E01``` 更改字體顏色 ```branch 0.5```](#%e7%ac%ac%e4%b8%89%e9%80%b1-e01-%e6%9b%b4%e6%94%b9%e5%ad%97%e9%ab%94%e9%a1%8f%e8%89%b2-branch-05)
       - [第四週 ```E02``` 將文字顏色使用RGB來顯示 ```branch 0.8```](#%e7%ac%ac%e5%9b%9b%e9%80%b1-e02-%e5%b0%87%e6%96%87%e5%ad%97%e9%a1%8f%e8%89%b2%e4%bd%bf%e7%94%a8rgb%e4%be%86%e9%a1%af%e7%a4%ba-branch-08)
       - [第五週 ```E04``` 使用 ``` Listener ``` 監聽器 ```branch 0.9```](#%e7%ac%ac%e4%ba%94%e9%80%b1-e04-%e4%bd%bf%e7%94%a8-listener-%e7%9b%a3%e8%81%bd%e5%99%a8-branch-09)
+      - [第六週 ```E05``` 使用 ```RadioGroup , RadioButton , CheckBox``` ```branch 1.0```](#%e7%ac%ac%e5%85%ad%e9%80%b1-e05-%e4%bd%bf%e7%94%a8-radiogroup--radiobutton--checkbox-branch-10)
   - [回家專案](#%e5%9b%9e%e5%ae%b6%e5%b0%88%e6%a1%88)
       - [第三週 ```W01```  按鈕更改成學號 ```branch 0.7```](#%e7%ac%ac%e4%b8%89%e9%80%b1-w01-%e6%8c%89%e9%88%95%e6%9b%b4%e6%94%b9%e6%88%90%e5%ad%b8%e8%99%9f-branch-07)
 
@@ -47,6 +48,31 @@
 - 最後下課前使用 ```點擊監聽``` 與 ```長按監聽``` 更改 ```TextView```  
   - 點擊更改 ```Red``` 
   - 長按更改 ```黑色```
+
+#### 第六週 ```E05``` 使用 ```RadioGroup , RadioButton , CheckBox``` ```branch 1.0```
+- 創建 ```E05``` 並且新增 
+  - 上課創建
+    - ```RadioGroup``` 飲料種類 
+      - ```RadioButton``` 咖啡(40元)、紅茶(50元)、奶茶(60元) 
+    - ```RadioGroup``` 糖分選擇 
+      - ```RadioButton``` 正常糖、半糖、少糖、無糖 
+    - ```CheckBox``` 需要袋子 +1 元 
+    - ```Button``` 提交
+    - ```TextView``` 顯示金額
+  - 下課作業新增
+    - ```RadioButton``` 新增飲料種類 綠茶(70元)
+    - ```RadioGroup``` 新增冰塊份量
+      - ```RadioButton``` 正常冰、微冰、去冰、熱
+    - ```CheckBox``` 需要珍珠 +5 元
+  - 條件
+  - 如果加珍珠、加袋子、選奶茶 則 +1 元
+  - 如果加珍珠、選奶茶 則 +0 元
+  - 如果加袋子 +1 元
+  - 如果加珍珠 +5 元
+  - 如果兩者都加 +6 元
+
+圖例 如下
+<img src="img/E05_DrinkStore01.jpg" width="300px">
 
 ## 回家專案
 
