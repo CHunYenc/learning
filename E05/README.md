@@ -27,6 +27,7 @@
   - 如果兩者都加 +6 元
 
 圖例 如下
+
 <img src="../img/E05_DrinkStore01.jpg" width="300px">
 
 ### 第六週 課後作業
