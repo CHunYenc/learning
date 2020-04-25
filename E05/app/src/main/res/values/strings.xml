@@ -3,10 +3,10 @@
 
 
     <string name="tv_ClassMenu">飲料種類</string>
-    <string name="C1_Coffee">咖啡(40)</string>
-    <string name="C2_RedTea">紅茶(50)</string>
-    <string name="C3_Milktea">奶茶(60)</string>
-    <string name="C4_Greentea">綠茶(70)</string>
+    <string name="C1_Coffee">咖啡(50)</string>
+    <string name="C2_RedTea">紅茶(40)</string>
+    <string name="C3_Milktea">奶茶(30)</string>
+    <string name="C4_Greentea">綠茶(35)</string>
 
     <string name="tv_SugarMenu">糖分選擇</string>
     <string name="f1_Normal">正常糖</string>
