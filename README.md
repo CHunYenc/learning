@@ -18,6 +18,8 @@
     - [第六週  ```E05``` ```branch 1.0``` 使用 ```RadioGroup , RadioButton , CheckBox```](#%e7%ac%ac%e5%85%ad%e9%80%b1-e05-branch-10-%e4%bd%bf%e7%94%a8-radiogroup--radiobutton--checkbox)
     - [```branch 1.1``` 整理 ```Week README``` 放入每週資料夾讓 ```Main README``` 不會太多文字](#branch-11-%e6%95%b4%e7%90%86-week-readme-%e6%94%be%e5%85%a5%e6%af%8f%e9%80%b1%e8%b3%87%e6%96%99%e5%a4%be%e8%ae%93-main-readme-%e4%b8%8d%e6%9c%83%e5%a4%aa%e5%a4%9a%e6%96%87%e5%ad%97)
     - [第七週 ```E05``` ```branch 1.1``` 使用 ```setVisibility Toast.makeText``` 設定圖片](#%e7%ac%ac%e4%b8%83%e9%80%b1-e05-branch-11-%e4%bd%bf%e7%94%a8-setvisibility-toastmaketext-%e8%a8%ad%e5%ae%9a%e5%9c%96%e7%89%87)
+    - [第八週 期中考](#%e7%ac%ac%e5%85%ab%e9%80%b1-%e6%9c%9f%e4%b8%ad%e8%80%83)
+    - [第九週 ```e08``` ```branch 1.3``` 使用 ``` Intent``` 製作](#%e7%ac%ac%e4%b9%9d%e9%80%b1-e08-branch-13-%e4%bd%bf%e7%94%a8-intent-%e8%a3%bd%e4%bd%9c)
   - [回家專案](#%e5%9b%9e%e5%ae%b6%e5%b0%88%e6%a1%88)
     - [第三週 ```W01```  按鈕更改成學號 ```branch 0.7```](#%e7%ac%ac%e4%b8%89%e9%80%b1-w01-%e6%8c%89%e9%88%95%e6%9b%b4%e6%94%b9%e6%88%90%e5%ad%b8%e8%99%9f-branch-07)
 
@@ -58,6 +60,14 @@ branch 1.1 以前都會是在 Main README 顯示作業說明
 
 - 說明文檔補上上一週繼續寫下去。
 - 內含課後作業 !
+
+### 第八週 期中考
+
+### 第九週 ```e08``` ```branch 1.3``` 使用 ``` Intent``` 製作 
+
+- [README Link](e08/README.md) 
+- ```branch 1.2``` 第七週 作業更改 紀錄新增 [README Link](E05/README.md) 
+
 
 ## 回家專案
 
