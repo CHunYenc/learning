@@ -206,7 +206,6 @@
         android:id="@+id/bt_sent"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
-        android:onClick="Calculate"
         android:text="@string/bt_text"
         app:layout_constraintBottom_toTopOf="@+id/guideline6"
         app:layout_constraintEnd_toEndOf="parent"
@@ -288,6 +287,50 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/cup"
+        tools:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/img05"
+        android:layout_width="255dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/h_coffee"
+        tools:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/img06"
+        android:layout_width="255dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/h_cup"
+        tools:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/img07"
+        android:layout_width="255dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/h_food"
+        tools:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/img08"
+        android:layout_width="255dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/h_greentea"
         tools:visibility="gone" />
 
     <androidx.constraintlayout.widget.Guideline

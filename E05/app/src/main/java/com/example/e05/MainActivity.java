@@ -4,8 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.os.Message;
+import android.os.Trace;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.RadioGroup;
@@ -18,7 +19,8 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
     TextView tvmsg;
     // bag 袋子 pm 珍珠
     CheckBox bag, pm;
-    ImageView img00, img01, img02, img03, img04;
+    ImageView img00, img01, img02, img03, img04, img05, img06, img07, img08;
+    Button bt_sent;
 
 
     @Override
@@ -37,8 +39,18 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
         img02 = findViewById(R.id.img02);
         img03 = findViewById(R.id.img03);
         img04 = findViewById(R.id.img04);
+        img05 = findViewById(R.id.img05);
+        img06 = findViewById(R.id.img06);
+        img07 = findViewById(R.id.img07);
+        img08 = findViewById(R.id.img08);
+
+
+        bt_sent = findViewById(R.id.bt_sent);
 
         rgClass.setOnCheckedChangeListener(this);
+        rgSugar.setOnCheckedChangeListener(this);
+        rgIce.setOnCheckedChangeListener(this);
+
         Showimage(0);
     }
 
@@ -48,7 +60,11 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
         img02.setVisibility(View.GONE);
         img03.setVisibility(View.GONE);
         img04.setVisibility(View.GONE);
-        if (imgnum <= 4 && imgnum >= 0) {
+        img05.setVisibility(View.GONE);
+        img06.setVisibility(View.GONE);
+        img07.setVisibility(View.GONE);
+        img08.setVisibility(View.GONE);
+        if (imgnum <= 8 && imgnum >= 0) {
             if (imgnum == 0) {
                 img00.setVisibility(View.VISIBLE);
             }
@@ -64,11 +80,27 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
             if (imgnum == 4) {
                 img04.setVisibility(View.VISIBLE);
             }
+            if (imgnum == 5) {
+                img05.setVisibility(View.VISIBLE);
+            }
+            if (imgnum == 6) {
+                img06.setVisibility(View.VISIBLE);
+            }
+            if (imgnum == 7) {
+                img07.setVisibility(View.VISIBLE);
+            }
+            if (imgnum == 8) {
+                img08.setVisibility(View.VISIBLE);
+            }
         }
     }
 
+    public void ShowMessage(String Class_msg, String Sugar_msg, String Ice_msg) {
+
+    }
+
     @SuppressLint("SetTextI18n")
-    public void Calculate(View v) {
+    public void Calculate() {
         double total = 0.0;
         String Class_msg = "";
         String Sugar_msg = "";
@@ -79,21 +111,33 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
                 total = 50.0;
                 Class_msg = "咖啡";
                 Showimage(1);
+                if (rgIce.getCheckedRadioButtonId() == R.id.rb_ice4) {
+                    Showimage(5);
+                }
                 break;
             case R.id.rb_redtea:
                 total = 40.0;
                 Class_msg = "紅茶";
                 Showimage(2);
+                if (rgIce.getCheckedRadioButtonId() == R.id.rb_ice4) {
+                    Showimage(6);
+                }
                 break;
             case R.id.rb_milktea:
                 total = 30.0;
                 Class_msg = "奶茶";
                 Showimage(3);
+                if (rgIce.getCheckedRadioButtonId() == R.id.rb_ice4) {
+                    Showimage(7);
+                }
                 break;
             case R.id.rb_greentea:
                 total = 35.0;
                 Class_msg = "綠茶";
                 Showimage(4);
+                if (rgIce.getCheckedRadioButtonId() == R.id.rb_ice4) {
+                    Showimage(8);
+                }
                 break;
         }
         // 設定飲料糖度
@@ -121,6 +165,7 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
                 break;
             case R.id.rb_ice3:
                 Ice_msg = "去冰";
+                break;
             case R.id.rb_ice4:
                 Ice_msg = "熱";
                 break;
@@ -162,5 +207,6 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
 
     @Override
     public void onCheckedChanged(RadioGroup group, int checkedId) {
+        Calculate();
     }
 }
