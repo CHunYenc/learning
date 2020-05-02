@@ -3,6 +3,7 @@
     - [第六週 ```E05``` 使用 ```RadioGroup , RadioButton , CheckBox``` ```branch 1.0```](#%e7%ac%ac%e5%85%ad%e9%80%b1-e05-%e4%bd%bf%e7%94%a8-radiogroup--radiobutton--checkbox-branch-10)
     - [第六週 課後作業](#%e7%ac%ac%e5%85%ad%e9%80%b1-%e8%aa%b2%e5%be%8c%e4%bd%9c%e6%a5%ad)
     - [第七週 ```E05``` ```branch 1.1``` 使用 ```setVisibility Toast.makeText``` 設定圖片](#%e7%ac%ac%e4%b8%83%e9%80%b1-e05-branch-11-%e4%bd%bf%e7%94%a8-setvisibility-toastmaketext-%e8%a8%ad%e5%ae%9a%e5%9c%96%e7%89%87)
+    - [第九週 ```E05``` ```branch 1.2```](#%e7%ac%ac%e4%b9%9d%e9%80%b1-e05-branch-12)
 
 ### 第六週 ```E05``` 使用 ```RadioGroup , RadioButton , CheckBox``` ```branch 1.0```
 - 創建 ```E05``` 並且新增 
@@ -48,3 +49,7 @@
 
 <img src="../img/E05_DrinkStore02.jpg" width="300px"> <img src="../img/E05_DrinkStore03.jpg" width="300px">
 <img src="../img/E05_DrinkStore04.jpg" width="300px"> <img src="../img/E05_DrinkStore05.jpg" width="300px">
+
+
+### 第九週 ```E05``` ```branch 1.2```
+- 延續上方 , 使用者選擇到每款飲料後，選熱飲時跳出每款不同的圖片。
