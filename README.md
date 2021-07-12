@@ -1,4 +1,4 @@
-# coding-traing-topic
+# coding-training-topic
 
 首先感謝 C 語言，成為我第一個程式語言，感謝授課老師。 
 
