@@ -14,5 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return "Hello Laravel.";
 });
+
+Route::get('/cats/{id}/{name}', function ($id, $name) {
+//    like python f-string
+    return "<h1>My number is {$id}, my name is $name.</h1>";
+});
+
+
+Route::get('/about', [\App\Http\Controllers\WelcomeController::class, 'about']);
