@@ -24,3 +24,7 @@ Route::get('/cats/{id}/{name}', function ($id, $name) {
 
 
 Route::get('/about', [\App\Http\Controllers\WelcomeController::class, 'about']);
+// only, 限制 methods
+Route::resource('/posts', \App\Http\Controllers\PostController::class)->only(['index', 'show']);
+// 全開
+//Route::resource('/posts', \App\Http\Controllers\PostController::class);
