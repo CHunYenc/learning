@@ -40,3 +40,9 @@
 [submodule "unity/2019_self-taught"]
 	path = unity/2019_self-taught
 	url = https://github.com/CHunYenc/unity.git
+[submodule "javascript-vue/self-taught"]
+	path = javascript-vue/self-taught
+	url = https://github.com/CHunYenc/vue_beginner.git
+[submodule "javascript-vue/2020_responsive-login-form"]
+	path = javascript-vue/2020_responsive-login-form
+	url = https://github.com/CHunYenc/Responsive-Login-Form
