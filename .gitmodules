@@ -19,3 +19,12 @@
 [submodule "c/107_basic-logic"]
 	path = c/107_basic-logic
 	url = https://github.com/CHunYenc/coding-training-topic.git
+[submodule "python3-flask/2020_self-learn"]
+	path = python3-flask/2020_self-learn
+	url = https://github.com/CHunYenc/flaskbeginner.git
+[submodule "python3-flask/2020_wsgi-doc"]
+	path = python3-flask/2020_wsgi-doc
+	url = https://github.com/CHunYenc/flask-doc.git
+[submodule "python3-flask/template"]
+	path = python3-flask/template
+	url = https://github.com/CHunYenc/flask-template.git
