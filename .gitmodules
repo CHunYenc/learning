@@ -28,3 +28,9 @@
 [submodule "python3-flask/template"]
 	path = python3-flask/template
 	url = https://github.com/CHunYenc/flask-template.git
+[submodule "python3-django/self-taught"]
+	path = python3-django/self-taught
+	url = https://github.com/CHunYenc/django_example.git
+[submodule "python3-django/2022_jwt"]
+	path = python3-django/2022_jwt
+	url = https://github.com/CHunYenc/custom-drf-jwt.git
