@@ -1,3 +1,9 @@
 [submodule "python3/CHU-lis"]
 	path = python3/CHU-lis
 	url = https://github.com/CHunYenc/pySample.git
+[submodule "java-android/108-2_final"]
+	path = java-android/108-2_final
+	url = https://github.com/CHunYenc/108-2_androidstudio_final.git
+[submodule "java/107-2_Login_Window"]
+	path = java/107-2_Login_Window
+	url = https://github.com/CHunYenc/107-2_Java.git
