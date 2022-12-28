@@ -37,3 +37,6 @@
 [submodule "python3-flask/2022_with-celery"]
 	path = python3-flask/2022_with-celery
 	url = https://github.com/CHunYenc/flask-celery-task.git
+[submodule "unity/2019_self-taught"]
+	path = unity/2019_self-taught
+	url = https://github.com/CHunYenc/unity.git
