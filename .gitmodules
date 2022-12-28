@@ -7,3 +7,9 @@
 [submodule "java/107-2_Login_Window"]
 	path = java/107-2_Login_Window
 	url = https://github.com/CHunYenc/107-2_Java.git
+[submodule "php/2022_my-laravel"]
+	path = php/2022_my-laravel
+	url = https://github.com/CHunYenc/my-laravel.git
+[submodule "php/2020_self-learn"]
+	path = php/2020_self-learn
+	url = https://github.com/CHunYenc/php-beginner.git
