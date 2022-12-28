@@ -1,0 +1,3 @@
+[submodule "python3/CHU-lis"]
+	path = python3/CHU-lis
+	url = https://github.com/CHunYenc/pySample.git
