@@ -13,3 +13,6 @@
 [submodule "php/2020_self-learn"]
 	path = php/2020_self-learn
 	url = https://github.com/CHunYenc/php-beginner.git
+[submodule "R/108-R"]
+	path = R/108-R
+	url = https://github.com/CHunYenc/108_1_R.git
