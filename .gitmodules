@@ -16,3 +16,6 @@
 [submodule "R/108-R"]
 	path = R/108-R
 	url = https://github.com/CHunYenc/108_1_R.git
+[submodule "c/107_basic-logic"]
+	path = c/107_basic-logic
+	url = https://github.com/CHunYenc/coding-training-topic.git
