@@ -46,3 +46,12 @@
 [submodule "javascript-vue/2020_responsive-login-form"]
 	path = javascript-vue/2020_responsive-login-form
 	url = https://github.com/CHunYenc/Responsive-Login-Form
+[submodule "kotlin/self-taught"]
+	path = kotlin/self-taught
+	url = https://github.com/CHunYenc/kotlin_beginner.git
+[submodule "docker/self-taught"]
+	path = docker/self-taught
+	url = https://github.com/CHunYenc/docker_beginner.git
+[submodule "python3-django/2020_uwsgi-offline-doc"]
+	path = python3-django/2020_uwsgi-offline-doc
+	url = https://github.com/CHunYenc/django_uwsgi_Offline.git
