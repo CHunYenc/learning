@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">E04</string>
-    <string name="bt_AddText">+</string>
-    <string name="bt_LessText">-</string>
-    <string name="tv_msg">30</string>
-    <string name="bt_center">#</string>
-</resources>

@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">W01</string>
-    <string name="textview_msg">HelloWorld!!!</string>
-    <string name="bt_Go">Go</string>
-    <string name="bt_Recover">恢復</string>
-</resources>
