@@ -7,7 +7,7 @@
 - [如何整理全部的儲存庫 (repository)](#如何整理全部的儲存庫-repository)
   - [~~C~~](#c) (已移除)
   - [~~20210713 加入 C~~](#20210713-加入-c) (已移除)
-  - [python3](#python3)
+  - [~~python3~~](#python3) (已移除)
   - [php](#php)
   - [~~R~~](#r) (已移除)
   - [~~java~~](#java) (已移除)
@@ -49,10 +49,11 @@ git merge drone main
 
 ## python3
 
-主要為 python 的學習紀錄。
-
-- 學年-學期 為學期中學習的資料
-- CHU-lis 為計中的作業
+> **注意：python3 資料夾已移除**
+>
+> Python 相關學習內容已移至 [1072_Python](https://github.com/yen-study-chu/1072_Python) 倉庫，並作為 [student-projects-collection](https://github.com/CHunYenc/student-projects-collection) 的子模組。
+>
+> 請參考新的倉庫以獲取更有組織的內容。
 
 ## php
 
